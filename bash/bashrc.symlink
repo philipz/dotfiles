@@ -124,7 +124,13 @@ GIT_PS1_SHOWSTASHSTATE=1
 GIT_PS1_SHOWUNTRACKEDFILES=1
 GIT_PS1_SHOWUPSTREAM="auto"
 
-export PATH=$PATH:/home/jldeen/bin
+export PATH=$PATH:/home/philipz/bin
+
+# For Docker Desktop
+export PATH="$PATH:/mnt/c/Program\ Files/Docker/Docker/resources/bin"
+alias docker=docker.exe
+alias docker-machine=docker-machine.exe
+alias docker-compose=docker-compose.exe
 
 # az cli
 # source /usr/bin/az
